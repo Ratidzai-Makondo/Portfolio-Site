@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+   <nav id="desktop-nav" >
+    <div class="logo">Ratidzai Makondo</div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+   </nav>
+
+   <nav id="hamburger-nav">
+    <div class="logo">Ratidzai Makondo</div>
+    <div class="hamburger-menu">
+    <div class="hamburger-icon open" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </div>
+    </div>
+   </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+        <img src="./assets/image1.png"  alt="Ratidzai Makondo Profile Picture"  
+        >
+    </div>
+    <div class="section__text"> 
+        <p class="section__text__p1"> Hi, I'm</p>
+        <h1 class="title">Ratie Makondo</h1>
+        <p class="section__text__p2">DevOps Engineer</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assets/Ratidzai_Makondo CV.pdf')"
+            >
+            Download CV Here
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+         Contact Info
+        </button>
+        </div>
+        <div id="socials-container">
+              <img 
+            src="./assets/linkedin.png"
+           alt="linkedin Profile"
+           class="icon"
+            onclick="location.href='https://linkedin.com/in/ratidzai-makondo-21b91a12a/'"
+            />
+           <img
+            src="./assets/github.png"
+           alt="Github Profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+            />
+        </div>
+    </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Learn More</p>
+        <h1 class="title">About Me </h1> 
+        <div class="section-container">
+        <div class="section__pic-container">
+            <img
+            src="./assets/image2.png"
+            alt="Profile Picture"
+            class="about-pic"
+            /> 
+        </div> 
+        <div class="about-details-container">
+            <div class="about-containers">
+            <div class="details-container">    
+            <img 
+            src="/assets/experience.png"
+            alt="=Experience icon"
+            class="icon"
+            />
+            <h3>Experience</h3>
+            <p>Backend Development</p>
+        </div>
+        <div class="details-container">
+            <img src="./assets/edu.png"
+            alt="=Education icon"
+            class="icon"
+            />
+            <h3>Education</h3>
+            <p>BTech/Advanced Diploma in Information Technology<br /> Diploma in Information Technology</p>
+        </div>
+        </div>
+        <div class="text-container">
+            <p>
+                I have experience within various work environments. My core qualities are
+                collaboration and being detail-oriented with a strong focus on customer service. 
+                I amdriven to succeed in any given situation. Committed to deliveringexceptional 
+                service and resolving internet issues effectively. Fluent in English with excellent
+                communication skills. Highly adaptable and self-motivated, able to workindependently 
+                in a remote environment. Skilled in troubleshooting, problem-solving,and providing 
+                technical assistance. Demonstrated reliability, professionalism, and astrong commitment
+                to continuous learning. Excited about the opportunity to contribute the success of 
+                customers and the growth of the company.
+            </p>
+        </div>
+        </div>
+        </div>
+        <img src="./assets/arrow.png" alt="=Arrow icon" class="icon arrow" onclick="location.href='./#skills'"
+        /> 
+    </section>
+    <section id="skills">
+        <p class="section__text__p1">Find out More About</p>
+        <h1 class="title">My Skills</h1> 
+        <div class="skills">
+        <div class="about-containers">
+        <div class="details-container">
+        <h2 class="excellent-sub-title"> Hard Skills</h2> 
+        <div class="article-container">   
+            <article>
+               <img src="./assets/checkmark.png" alt="=Skills icon"
+               class="icon"
+                /> 
+                <div>
+                <h3>HTML</h3>
+                </div>
+            </article>     
+            <article>
+               <img src="./assets/checkmark.png" alt="=Skills icon"
+               class="icon"
+                /> 
+                <div>
+                <h3>CSS</h3>
+                </div>
+            </article>
+            <article>
+            <img src="./assets/checkmark.png" alt="=Skills icon"
+            class="icon"
+             /> 
+             <div>
+             <h3>Python</h3>
+             </div>
+         </article>    
+         <article>
+               <img src="./assets/checkmark.png" alt="=Skills icon"
+               class="icon"
+                /> 
+                <div>
+                <h3>MySQL</h3>
+                </div>
+            </article> 
+            <article>
+               <img src="./assets/checkmark.png" alt="=Skills icon"
+               class="icon"
+                /> 
+                <div>
+                <h3>Java</h3>
+                </div>
+            </article>   
+            <article>
+                <img src="./assets/checkmark.png" alt="=Skills icon"
+                class="icon"
+                 /> 
+                 <div>
+                 <h3>Git</h3>
+                 </div>
+             </article> 
+             <article>
+                <img src="./assets/checkmark.png" alt="=Skills icon"
+                class="icon"
+                 /> 
+                 <div>
+                 <h3>Powershell</h3>
+                 </div>
+             </article>         
+        </div>   
+    </div>
+</div>
+</div>
+</div>
+        <div class="details-container">
+            <h2 class="skills">Soft Skills</h2> 
+            <div class="article-container">   
+                <article>
+                   <img src="./assets/checkmark.png" alt="=Skills icon"
+                   class="icon"
+                    /> 
+                    <div>
+                    <h3>Communication</h3>
+                    </div>
+                </article>
+                <article>
+                   <img src="./assets/checkmark.png" alt="=Skills icon"
+                   class="icon"
+                    /> 
+                    <div>
+                    <h3>Attention to detail</h3>
+                    </div>
+                </article>
+                <article>
+                <img src="./assets/checkmark.png" alt="=Skills icon"
+                class="icon"
+                 /> 
+                 <div>
+                 <h3>Collaboration</h3>
+                 </div>
+             </article>   
+             <article>
+                   <img src="./assets/checkmark.png" alt="=Skills icon"
+                   class="icon"
+                    /> 
+                    <div>
+                    <h3>Problem Solving</h3>
+                    </div>
+                </article> 
+                <article>
+                   <img src="./assets/checkmark.png" alt="=Skills icon"
+                   class="icon"
+                    /> 
+                    <div>
+                    <h3>Self Awareness</h3>
+                </article>          
+                <article>
+                    <img src="./assets/checkmark.png" alt="=Skills icon"
+                    class="icon"
+                     /> 
+                     <div>
+                     <h3>Adaptable</h3>
+                     </div>
+                 </article>
+                 <article>
+                 <article>
+                    <img src="./assets/checkmark.png" alt="=Skills icon"
+                    class="icon"
+                     /> 
+                     <div>
+                     <h3>Decision Making</h3>
+                     </div>
+                 </article>
+            </div>
+        </div> 
+    </div>
+    </div>
+    <img src="./assets/arrow.png" alt="=Arrow icon" class="icon arrow" onclick="location.href='./#projects'"
+        />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1"> Check Out My</p>
+        <h1 class="title">Projects</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-1.png" alt="Project 1"
+                    class="project-img"
+                    />
+                </div>
+                <h2 class="skills-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                       Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-1.png" alt="Project 1"
+                    class="project-img"
+                    />
+                </div>
+                <h2 class="sklls-sub-title project-title">Project two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                       Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-1.png" alt="Project 1"
+                    class="project-img"
+                    />
+                </div>
+                <h2 class="sklls-sub-title project-title">Project three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                       Live Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <img src="./assets/arrow.png" alt="=Arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1"> Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+            <img src="./assets/email.png" alt="Email icon"
+            class="icon contact-icon " />
+            <p><a href="mailto:ratidzaimakondo@gmail.com">ratidzaimakondo@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedin icon"
+                class="icon contact-icon " />
+                <p><a href="https://www.linkedin.com/in/ratidzaimakondo">linkedin</a></p>
+                </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </div> 
+        </nav>
+        <p>Copyright &#169; 2023 Ratidzai Makondo.</p>
+    </footer>
+ <script src="script.js"></script>
+</body>
+</html>
